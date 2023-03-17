@@ -22,7 +22,7 @@ html, body, #root {
 }
 
 h1 {
-  font-size: 2.7rem;
+  font-size: 3.2rem;
   line-height: 1.2;
 }
 
@@ -49,9 +49,13 @@ a {
   color: #222;
 }
 
+h1, h2, h5, p {
+  color: #fff;
+}
+
 @media screen and (max-width:768px) {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
   }
   
   h2 {

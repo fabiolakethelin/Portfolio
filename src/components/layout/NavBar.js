@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
-import illustration from '../../img/illustration.png'
+import illustration from '../../assets/illustration.png'
 import './NavBar.css'
 
 const NavBar = () => {
@@ -29,7 +29,7 @@ const NavBar = () => {
             <div className='burger' onClick={handleClick}>
                     {open ? <FaTimes /> : <FaBars />}
             </div>
-            <div className={open ? 'closemenu' : 'closemenu desactived'} onClick={handleClick}/>
+            <div className={open ? 'closemenu' : 'closemenu desactive'} onClick={handleClick}/>
         </nav>
     )
 }

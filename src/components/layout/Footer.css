@@ -1,0 +1,21 @@
+.footer-container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 1.5rem 1rem;
+}
+
+.social {
+    text-align: center;
+}
+
+.social .bar {
+    display: block;
+    margin: 0 auto 1.1rem;
+    width: 190px;
+    border-bottom: 1px solid #8691D9;
+}
+
+.social svg {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 0 2rem;
+}

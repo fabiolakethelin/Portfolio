@@ -1,17 +1,23 @@
 .btn {
     padding: 12px 24px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: bolder;
     background: #8691D9;
     color: #fff;
-    border: none;
+    border: 1px solid #8691D9;
     border-radius: 8px;
     cursor: pointer;
+    margin: .8rem;
     transition: 0.5s;
+}
+
+.btn.transparent {
+    background: rgba(34, 34, 34, 0.7);
+    color: #8691D9;
+    border: 1px solid #8691D9;
 }
 
 .btn:hover {
     background: #fff;
-    border: 1px solid #8691D9;
     color: #8691D9;
 }
