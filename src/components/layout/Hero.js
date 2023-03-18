@@ -6,7 +6,7 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div>
-            <div className="intro">
+            <div className="mask">
                 <img src={Intro} alt='' />
             </div>
             <div className="content">

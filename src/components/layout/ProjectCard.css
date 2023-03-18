@@ -1,0 +1,41 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(2, 49, 110, 0.2);
+    border-radius: 10px;
+    padding: .8rem;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    padding: .8rem 0;
+    text-align: center;
+}
+
+.details p {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    }
+}
