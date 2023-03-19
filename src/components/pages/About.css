@@ -1,0 +1,49 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 4rem;
+    margin: 1.5rem 0;
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 93%);
+}
+
+.left {
+    max-width: 80%;
+    margin: auto;
+}
+
+.left h3 {
+    margin: .5rem 0 1.5rem;
+}
+
+.left span {
+    color: #8691D9;
+}
+
+.left p {
+    font-size: .9rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.right {
+    margin: auto;
+}
+
+.right img {
+    width: 150px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 940px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .left h2, h3{
+        text-align: center;
+    }
+}

@@ -1,8 +1,4 @@
 .project-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.85);
     width: 100%;
 }
 
@@ -15,4 +11,13 @@
 
 .head h2 {
     padding: 6rem 0 1.3rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
 }
