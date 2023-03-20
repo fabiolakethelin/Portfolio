@@ -1,5 +1,5 @@
 import React from "react"
-import teste from '../../assets/teste.png'
+import portrait from '../../assets/portrait.png'
 import "./About.css"
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="right">
                 <div className="img-container">
-                    <img src={teste} alt=''/>
+                    <img src={portrait} alt=''/>
                 </div>
             </div>
         </div>

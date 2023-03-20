@@ -26,6 +26,9 @@ const NavBar = () => {
                     <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
+            <div>
+                <Link to="/files/FabiolaCv-eng.pdf" target="_blank" download className="btn">Download CV</Link>
+            </div>
             <div className='burger' onClick={handleClick}>
                     {open ? <FaTimes /> : <FaBars />}
             </div>

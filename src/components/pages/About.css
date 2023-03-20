@@ -5,8 +5,8 @@
     align-items: center;
     background: rgb(0, 0, 0, 0.2);
     width: 100%;
-    padding: 4rem;
-    margin: 1.5rem 0;
+    padding: 6rem 4rem;
+    margin: 3rem 0;
     clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 93%);
 }
 
@@ -33,9 +33,16 @@
     margin: auto;
 }
 
-.right img {
-    width: 150px;
-    border-radius: 50px;
+.img-container{
+    width: 10rem;
+    border-radius: 9rem 9rem 2rem 2rem;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.img-container img {
+    width: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 940px) {

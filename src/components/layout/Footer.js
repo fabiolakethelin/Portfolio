@@ -12,7 +12,7 @@ const Footer = () => {
                 <a href="https://linkedin.com/in/fabiolakethelin"
                 target='_blank' rel="noreferrer"><FaLinkedin /></a>
                 <a href="https://instagram.com/fabiola_kethelin?igshid=ZDdkNTZiNTM="
-                target='_blank'><FaInstagram /></a>
+                target='_blank' rel="noreferrer"><FaInstagram /></a>
             </div>
         </div>
     )

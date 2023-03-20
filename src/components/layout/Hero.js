@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1>FRONT END DEVELOPER</h1>
                 <div>
                     <LinkButton to='/project' text='Projects' className='btn transparent'/>
-                    <LinkButton to='/contac' text='Contact' className='btn'/>
+                    <LinkButton to='/contact' text='Contact' className='btn'/>
                 </div>
             </div>
         </div>
