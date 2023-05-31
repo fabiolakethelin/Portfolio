@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import emailjs from "@emailjs/browser"
 import Input from "../form/Input"
-import './Contact.css'
-import TxtArea from "../form/TxtArea"
+import { Form_Container, Form, Button } from './Contact.style.js'
+import TextArea from "../form/TextArea"
 
 const Contact = () => {
 
@@ -10,7 +10,7 @@ const Contact = () => {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
 
-    function sendEmail(e) {
+    const sendEmail = (e) => {
         e.preventDefault();
 
         const templateParams = {
@@ -29,9 +29,9 @@ const Contact = () => {
     }
 
     return (
-        <div className="form-container">
+        <Form_Container>
             <h2>CONTACT</h2>
-            <form className="form" onSubmit={sendEmail}>
+            <Form onSubmit={sendEmail}>
                 <Input
                   type="text"
                   id="name"
@@ -46,14 +46,14 @@ const Contact = () => {
                   handleOnChange={(e) => setEmail(e.target.value)}
                   value={email}
                 />
-                <TxtArea
+                <TextArea
                   placeholder="Message"
                   handleOnChange={(e) => setMessage(e.target.value)}
                   value={message}
                 />
-                <button className="btn">Submit</button>
-            </form>
-        </div>
+                <Button>Submit</Button>
+            </Form>
+        </Form_Container>
     )
 }
 

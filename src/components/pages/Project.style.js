@@ -1,23 +1,22 @@
-.project-container {
-    width: 100%;
-}
+import styled from "styled-components";
 
-.head {
+
+export const Header = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.head h2 {
-    padding: 6rem 0 1.3rem;
-}
+    h2 {
+        padding: 6rem 0 1.3rem;
+    }
+`
 
-.project-card {
+export const ProjectCard_Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 600px;
     margin: auto;
-}
+`

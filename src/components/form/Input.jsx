@@ -1,9 +1,9 @@
 import React from "react";
-import "./Input.css"
+import { Input_Container } from "./Input.style.js"
 
 const Input = (props) => {
     return (
-      <div>
+      <Input_Container>
           <input
             type={props.type}
             id={props.id}
@@ -12,7 +12,7 @@ const Input = (props) => {
             value={props.value}
             required
           />
-        </div>
+        </Input_Container>
     )
 }
 

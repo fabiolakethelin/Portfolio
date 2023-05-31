@@ -1,22 +1,23 @@
 import React from "react";
 import Intro from '../../assets/intro.jpg'
 import LinkButton from './LinkButton'
-import './Hero.css'
+import { Mask, Content } from './Hero.style.js'
 
 const Hero = () => {
     return (
         <div>
-            <div className="mask">
+            <Mask>
                 <img src={Intro} alt='' />
-            </div>
-            <div className="content">
+            </Mask>
+            <Content>
                 <p>HI, I'M <span>FABÍOLA KETHELIN</span></p>
                 <h1>FRONT END DEVELOPER</h1>
                 <div>
-                    <LinkButton to='/project' text='Projects' className='btn transparent'/>
-                    <LinkButton to='/contact' text='Contact' className='btn'/>
+                    <LinkButton to='/project' text='Projects' className='transparent'/>
+                    <LinkButton to='/contact' text='Contact'/>
                 </div>
-            </div>
+                
+            </Content>
         </div>
     )
 }

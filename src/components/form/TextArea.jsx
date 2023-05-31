@@ -1,9 +1,9 @@
 import React from "react";
-import "./TxtArea.css"
+import { TxtArea } from "./TextArea.style.js"
 
-const TxtArea = (props) => {
+const TextArea = (props) => {
     return (
-        <textarea
+        <TxtArea
             placeholder={props.placeholder}
             onChange={props.handleOnChange}
             value={props.value}
@@ -12,4 +12,4 @@ const TxtArea = (props) => {
     )
 }
 
-export default TxtArea
+export default TextArea
