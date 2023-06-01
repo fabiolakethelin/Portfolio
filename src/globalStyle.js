@@ -14,17 +14,14 @@ export default createGlobalStyle`
 
   h1 {
     font-size: 3.2rem;
-    line-height: 1.2;
   }
 
   h2 {
     font-size: 2rem;
-    line-height: 1.2;
   }
 
   h3 {
     font-size: 1.5rem;
-    line-height: 1.2;
   }
 
   p {
@@ -52,6 +49,10 @@ export default createGlobalStyle`
     
     h2 {
       font-size: 1.6rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
     }
     
     p {

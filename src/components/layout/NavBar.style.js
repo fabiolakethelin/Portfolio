@@ -14,6 +14,10 @@ export const Header = styled.nav`
 
     @media screen and (max-width: 768px) {
         padding: 1rem;
+
+        img {
+            width: 45px;
+        }
     }
 `
 

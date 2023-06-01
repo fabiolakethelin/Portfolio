@@ -21,7 +21,7 @@ export const Intro = styled.div`
     margin: auto;
 
     h3 {
-        margin: .5rem 0 1.5rem;
+        margin: 1rem 0 1.5rem;
     }
 
     span {

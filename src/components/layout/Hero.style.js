@@ -31,10 +31,11 @@ export const Content = styled.div`
     top: 50%;
     left: 50%;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    width: 100%;
 
     span {
-        color: #8691D9;
+        color: rgb(167 176 235);
     }
 
     h1 {

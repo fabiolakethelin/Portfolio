@@ -1,6 +1,6 @@
 import React from "react"
 import ProjectCard from "../layout/ProjectCard"
-import project1 from "../../assets/fk-invest.png"
+import project1 from "../../assets/vitalize.png"
 import soon from "../../assets/coming-soon.png"
 import { Header, ProjectCard_Container } from "./Project.style.js"
 

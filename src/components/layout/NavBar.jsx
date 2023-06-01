@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import illustration from '../../assets/illustration.png';
 import { Header, NavIcon, NavContent, CloseMenu } from './NavBar.style.js';
-import {Button} from './LinkButton.style';
 import LinkButton from "./LinkButton";
 
 const NavBar = () => {
@@ -36,7 +35,7 @@ const NavBar = () => {
                 </div>
             </NavContent>
 
-            <LinkButton to="/files/FabiolaCv.pdf" target="_blank" text='Download CV' />
+            <LinkButton to="/files/FabiolaCv.pdf" target="_blank" text='Download Cv' />
 
             <NavIcon open={isMenuOpen} onClick={handleClick}>
                 {isMenuOpen ? <FaTimes /> : <FaBars />}

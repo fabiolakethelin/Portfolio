@@ -1,24 +1,25 @@
 import React from "react";
-import "./ProjectCard.css";
+import {CardContainer, Card, Details} from "./ProjectCard.style.js";
+import {Button} from './LinkButton.style.js'
 
 const ProjectCard = (props) => {
 
     return (
-        <div className="card-container">
-            <div className="card">
+        <CardContainer>
+            <Card>
                 <img src={props.src} alt="" />
                 <h3>{props.tittle}</h3>
-                <div className="details">
+                <Details>
                     <p>{props.text1}</p>
                     <p>{props.text2}</p>
-                    <div className="buttons">
+                    <Button className="flex">
                         <a href={props.view} target="_blank" rel="noreferrer" className="btn">View</a>
                         <a href={props.source} target="_blank" rel="noreferrer" className="btn">Source</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+                    </Button>
+                </Details>
+            </Card>
+        </CardContainer>
+    );
+};
 
 export default ProjectCard
