@@ -8,7 +8,7 @@ export const Header = styled.nav`
     padding: 1rem 2rem;
 
     img {
-        width: 50px;
+        width: 100px;
         border-radius: 50px;
     }
 
@@ -16,7 +16,7 @@ export const Header = styled.nav`
         padding: 1rem;
 
         img {
-            width: 45px;
+            width: 70px;
         }
     }
 `

@@ -1,5 +1,5 @@
 import React from "react"
-import portrait from '../../assets/portrait.png'
+import portrait from '../../assets/portrait.jpg'
 import { About_Container, Intro, Img_Container } from "./About.style.js"
 
 const About = () => {

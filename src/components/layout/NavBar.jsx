@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import illustration from '../../assets/illustration.png';
+import illustration from '../../assets/logo.png';
 import { Header, NavIcon, NavContent, CloseMenu } from './NavBar.style.js';
 import LinkButton from "./LinkButton";
 

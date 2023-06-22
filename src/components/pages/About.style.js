@@ -45,7 +45,7 @@ export const Img_Container = styled.div`
     margin: auto;
     
     .portrait{
-        width: 9rem;
+        width: 12rem;
         border-radius: 9rem 9rem 2rem 2rem;
         overflow: hidden;
         margin-top: 2rem;
