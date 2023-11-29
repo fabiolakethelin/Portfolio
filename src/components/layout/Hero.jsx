@@ -11,7 +11,7 @@ const Hero = () => {
             </Mask>
             <Content>
                 <p>HI, I'M <span>FABÍOLA KETHELIN</span></p>
-                <h1>FRONT END DEVELOPER</h1>
+                <h1>WEB DEVELOPER</h1>
                 <div>
                     <LinkButton to='/project' text='Projects' className='transparent'/>
                     <LinkButton to='/contact' text='Contact'/>
