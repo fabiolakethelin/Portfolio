@@ -7,7 +7,7 @@ const About = () => {
         <About_Container>
             <Intro>
                 <h2>I am Fabíola Kethelin</h2>
-                <h3>A <span>Front-End Developer</span></h3>
+                <h3>A <span>Web Developer</span></h3>
                 <p>
                     My passion for web development started in high school, so I started studying information systems to turn that passion into a career. I love the challenge of taking a design from concept to reality or finding creative solutions to complex problems.
                 </p>
